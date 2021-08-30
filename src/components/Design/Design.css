@@ -1,0 +1,83 @@
+#design-work {
+    border-bottom: 1px solid var(--grey);
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-image: url("../../assets/images/ps-neutral.png");
+    background-color: var(--darkgrey);
+}
+
+.design-info {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--header);
+}
+
+.design-info h1 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.design-info p {
+    color: var(--text);
+}
+
+.design-project-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.design-project-row > .design-card {
+    margin: 15px;
+}
+
+.design-card {
+    position: relative;
+    width: 20%;
+    min-width: 20rem;
+    border-radius: 25px;
+    box-shadow: 1px 1px 15px 1px var(--darkgrey);
+}
+
+.design-card img {
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    max-height: 600px;
+    margin-bottom: -5px;
+}
+
+.hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.design-card:hover img.hover {
+    opacity: 1;
+}
+
+.design-project-info {
+    background-color: var(--card);
+    border-radius: 0px 0px 25px 25px;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.design-project-info h4 {
+    color: var(--header);
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.design-project-info p {
+    color: var(--subheader);
+}

@@ -1,0 +1,88 @@
+#web-work {
+    border-bottom: 1px solid var(--grey);
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-image: url("../../assets/images/code.png");
+    background-color: var(--darkgrey);
+    background-size: 80px;
+    background-blend-mode: soft-light;
+}
+
+.web-info {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--header);
+}
+
+.web-info h1 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.web-info p {
+    color: var(--text);
+}
+
+.project-spotlight {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-row > .card {
+    width: 20rem;
+    margin: 15px;
+}
+
+.card {
+    width: 50%;
+    min-width: 20rem;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 1px var(--darkgrey);
+}
+
+.card:hover {
+    box-shadow: 0px 0px 1px 1px var(--primary);
+}
+
+.card img {
+    filter: hue-rotate(20);
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.project-info {
+    background-color: var(--card);
+    border-radius: 0px 0px 25px 25px;
+}
+
+.project-info h4 {
+    color: var(--light);
+    text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.icon-row ul {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px;
+    list-style: none;
+}
