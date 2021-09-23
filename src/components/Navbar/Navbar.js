@@ -53,7 +53,7 @@ export default function Navbar() {
 
   return (
     <nav id='navbar' className="navbar">
-        <div className="navbar-logo" id="navbar-logo"><img src={logo} alt="foxcrxft logo" width="75px"/></div>
+        <div className="navbar-logo" id="navbar-logo"><img src={logo} alt="apierce logo" width="75px"/></div>
           {(toggleMenu || screenWidth > 900 ) && (
             <ul id="nav-list" className="list">
               <li className="items"><Link activeClass="active" to="home" spy={true} smooth={true} offset={-85} duration={50} onClick={toggleNav}>Home</Link></li>

@@ -17,6 +17,7 @@ import Onslaught from '../../assets/images/Onslaught.webp';
 import AIS from '../../assets/images/AIS.webp';
 import MHS from '../../assets/images/MHS.webp';
 import STFU from '../../assets/images/STFU.webp';
+import dakota from '../../assets/images/dakota-pierce.webp';
 
 function Web() {
 
@@ -34,6 +35,12 @@ function Web() {
                     description="Personal project"
                     />
                 <DesignCard 
+                    srcOne={dakota}
+                    srcTwo={dakota}
+                    title="DP Logo"
+                    description="A simple clean logo"
+                    />
+                    <DesignCard 
                     srcOne={BSAuto}
                     srcTwo={BSAuto}
                     title="BS Auto Detailing"

@@ -9,13 +9,14 @@ import BootstrapIcon from '../Technologies/BootstrapIcon'
 import JavascriptIcon from '../Technologies/JavascriptIcon'
 import PhotoshopIcon from '../Technologies/PhotoshopIcon'
 import MySQLIcon from '../Technologies/MySQLIcon'
+import JQueryIcon from '../Technologies/JQueryIcon'
 // import ReactIcon from '../Technologies/ReactIcon'
 // import NodeIcon from '../Technologies/NodeIcon'
 
 import upsidexdown from '../../assets/images/upsidexdown.webp';
 import musicalmecca from '../../assets/images/MusicalMecca.webp';
 import NME from '../../assets/images/NME.webp';
-import MIBR from '../../assets/images/MIBR.webp';
+import SteamTools  from '../../assets/images/SteamTools.webp';
 
 function Web() {
 
@@ -54,6 +55,16 @@ function Web() {
                     techsix= {<PhotoshopIcon />}
                     />
                 <WebCard 
+                    src={SteamTools}
+                    text="Steam Tools"
+                    github="https://github.com/apierce17/steam-tools"
+                    url="https://apierce17.github.io/steam-tools/"
+                    techone= {<HTMLIcon />}
+                    techtwo= {<CSSIcon />}
+                    techthree= {<JQueryIcon />}
+                    techfour= {<PhotoshopIcon />}
+                />
+                <WebCard 
                     src={NME}
                     text="Nashville Music Events"
                     github="https://github.com/apierce17/NashvilleMusicEvents"
@@ -63,16 +74,6 @@ function Web() {
                     techthree= {<BootstrapIcon />}
                     techfour= {<JavascriptIcon />}
                     techfive= {<PhotoshopIcon />}
-                    />
-                <WebCard 
-                    src={MIBR}
-                    text="MIBR"
-                    github="https://github.com/apierce17/mibr"
-                    url="https://apierce17.github.io/mibr/"
-                    techone= {<HTMLIcon />}
-                    techtwo= {<CSSIcon />}
-                    techthree= {<BootstrapIcon />}
-                    techsix= {<PhotoshopIcon />}
                     />
                 </div>
             </div>

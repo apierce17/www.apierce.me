@@ -23,6 +23,7 @@ function About() {
                         <li>CSS</li>
                         <li>BootStrap</li>
                         <li>Javascript</li>
+                        <li>JQuery</li>
                         <li>React</li>
                         <li>MySQL</li>
                         <li>WordPress</li>
