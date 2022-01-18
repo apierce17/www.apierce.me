@@ -30,10 +30,10 @@ function Web() {
                     </div>
                     <div className="design-project-row">
                     <DesignCard 
-                        srcOne={NeonPortraitAfter}
-                        srcTwo={NeonPortraitBefore}
-                        title="@mr1ous_yyc"
-                        description="Photo edit for instagram user @mr1ous_yyc"
+                        srcOne={NeonBikeAfter}
+                        srcTwo={NeonBikeBefore}
+                        title="@thekilacam"
+                        description="Photo edit for instagram user @thekilacam"
                         />
                     <DesignCard 
                         srcOne={NightBikeAfter}
@@ -42,10 +42,10 @@ function Web() {
                         description="Photo edit for instagram user @moto.king.yyc"
                         />
                     <DesignCard 
-                        srcOne={NeonBikeAfter}
-                        srcTwo={NeonBikeBefore}
-                        title="@thekilacam"
-                        description="Photo edit for instagram user @thekilacam"
+                        srcOne={NeonPortraitAfter}
+                        srcTwo={NeonPortraitBefore}
+                        title="@mr1ous_yyc"
+                        description="Photo edit for instagram user @mr1ous_yyc"
                         />
                     </div>
                 </div>
@@ -59,6 +59,12 @@ function Web() {
                             srcTwo={BorderlessFull}
                             title="Borderless"
                             description="Immigration podcast"
+                            />
+                        <DesignCard 
+                            srcOne={FrosTz}
+                            srcTwo={FrosTz}
+                            title="FrosTz"
+                            description="A logo I did for a Twitch streamer"
                             />
                         <DesignCard 
                             srcOne={BSAuto}
@@ -83,12 +89,6 @@ function Web() {
                             srcTwo={Onslaught}
                             title="Onslaught"
                             description="eSports logo"
-                            />
-                        <DesignCard 
-                            srcOne={FrosTz}
-                            srcTwo={FrosTz}
-                            title="FrosTz"
-                            description="A logo I did for a Twitch streamer"
                             />
                         <DesignCard 
                             srcOne={Leviathan}

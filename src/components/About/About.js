@@ -25,6 +25,7 @@ function About() {
                         <li>Javascript</li>
                         <li>JQuery</li>
                         <li>React</li>
+                        <li>PHP</li>
                         <li>MySQL</li>
                         <li>WordPress</li>
                         <li>AWS</li>
