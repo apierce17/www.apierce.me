@@ -64,8 +64,14 @@
     padding: 2.5px 5px;
     border-radius: 5px;
     color: var(--text);
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 10px;
+}
+
+.coding li:hover, .software li:hover {
+    background: var(--primary);
+    color: var(--dark);
+    transition: ease-in-out .25s;
 }
 
 .coding li {

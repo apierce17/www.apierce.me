@@ -5,7 +5,7 @@ function JavascriptIcon() {
     const tech = {fontSize: "1.5rem",color: "var(--techIcons)"}
     
     return (
-        <span title="Javascript"><DiJavascript1 style={tech}/></span>
+        <span title="JavaScript"><DiJavascript1 style={tech}/></span>
     )
 }
 

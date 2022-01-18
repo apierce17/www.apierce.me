@@ -34,7 +34,7 @@ body {
   background-color: var(--background2);
   padding-top: 85px;
   overflow-x: hidden;
-  font-family: Lato;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .page-container {

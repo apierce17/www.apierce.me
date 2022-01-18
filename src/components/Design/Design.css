@@ -17,11 +17,17 @@
     font-size: 36px;
     font-weight: 600;
     padding-bottom: 5px;
+    text-transform: uppercase;
 }
 
 .design-info p {
     color: var(--text);
 }
+
+.design-card:hover {
+    box-shadow: 0px 0px 1px 1px var(--primary);
+}
+
 
 .design-project-row {
     display: flex;
